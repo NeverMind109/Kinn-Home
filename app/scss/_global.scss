@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+}
+p {
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  // font-family: 'Jost', sans-serif;
+  min-width: 320px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #56593d;
+  background-color: #ffffff;
+  margin: 0;
+  overflow-x: hidden;
+}
