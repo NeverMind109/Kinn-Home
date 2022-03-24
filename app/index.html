@@ -14,6 +14,138 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <header class="header">
+      <div class="row header__line col-12"></div>
+      <div class="container">
+        <div
+          class="row header__wrapper d-flex align-items-center justify-lg-content-between justify-content-sm-center justify-content-between col-12"
+        >
+          <nav
+            class="menu header__menu d-flex justify-content-start justify-content-sm-center justify-content-lg-start col-xxl-5 col-lg-auto col-12 order-3 order-lg-0"
+          >
+            <ul
+              class="menu-list d-flex align-items-start justify-content-sm-center justify-content-lg-start"
+            >
+              <li class="dropdown menu-list__item dropdown-carret">
+                <button
+                  class="btn dropdown-toggle menu-list__btn"
+                  type="button"
+                  id="menu-shop-drop"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </button>
+                <ul
+                  class="dropdown-menu menu-list__dropdown"
+                  aria-labelledby="menu-shop-drop"
+                >
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Lorem</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Ipsum</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Dolor</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="#">Style Quiz</a>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu-list__link" href="#">About Us</a>
+              </li>
+              <li class="dropdown menu-list__item dropdown-carret">
+                <button
+                  class="btn dropdown-toggle menu-list__btn"
+                  type="button"
+                  id="menu-stories-drop"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Stories
+                </button>
+                <ul
+                  class="dropdown-menu menu-list__dropdown"
+                  aria-labelledby="menu-stories-drop"
+                >
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Lorem</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Ipsum</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Dolor</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item menu-list__dropdown-item" href="#"
+                      >Sit amet</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <a
+            class="logo header__logo d-flex justify-content-lg-center justify-content-sm-start justify-content-center order-0 order-lg-1 col-lg-2 col-sm-6 col-12"
+            href="index.html"
+          >
+            <img
+              class="logo__img"
+              src="images/logo.png"
+              alt="Logo"
+              width="90"
+              height="26"
+            />
+          </a>
+          <div
+            class="header__buttons d-flex justify-content-end order-2 order-sm-1 order-lg-2 col-xxl-5 col-lg-2 col-sm-6 col-6"
+          >
+            <button
+              class="header__button header__profile profile"
+              type="button"
+            ></button>
+            <button
+              class="header__button header__search search"
+              type="button"
+            ></button>
+            <a class="header__cart cart" href="#">
+              <img
+                class="header__button-img"
+                src="images/cart-icon.svg"
+                alt="Cart Icon"
+                width="32"
+                height="32"
+              />
+              <span class="header__cart-quantity">0</span>
+            </a>
+          </div>
+          <button
+            class="menu-button d-flex d-sm-none flex-column justify-content-between order-1 col-2"
+            type="button"
+          >
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
     <script src="js/main.min.js"></script>
   </body>
 </html>
