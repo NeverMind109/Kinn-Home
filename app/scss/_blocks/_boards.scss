@@ -1,0 +1,97 @@
+.boards {
+  padding-top: 87px;
+  &__statement {
+    margin-bottom: 88px;
+  }
+  &__statement-text {
+    max-width: 1200px;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: #56593d;
+    margin: 0 auto 26px;
+  }
+  &__statement-link {
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #56593d;
+    padding-right: 25px;
+    &::before {
+      position: absolute;
+      content: "";
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 14px;
+      height: 11px;
+      background: url("../images/link-arrow.svg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      margin-right: 7px;
+    }
+    &::after {
+      content: "";
+      display: block;
+      border-bottom: 2px solid #56593d;
+      width: calc(100% + 25px);
+    }
+    &:first-child {
+      margin-right: 68px;
+    }
+    &:hover {
+      color: #000;
+    }
+  }
+  &__goods {
+    background: #ffffef;
+    padding: 64px 0;
+  }
+  &__title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593d;
+    margin-bottom: 80px;
+  }
+  &__slider {
+    padding: 0 15px;
+  }
+  &__card {
+    max-width: 410px;
+    background: #ffffef;
+    border: none;
+    padding: 0 15px;
+  }
+  &__card-img {
+    max-width: 100%;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  &__card-body {
+    padding: 0 0 7px;
+  }
+  &__card-title {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #56593d;
+  }
+  &__card-footer {
+    background: #ffffef;
+    text-align: center;
+    padding: 0;
+    border: 0;
+  }
+  &__card-price {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    color: #717353;
+  }
+}
+.card-footer:last-child {
+  border-radius: 0;
+}

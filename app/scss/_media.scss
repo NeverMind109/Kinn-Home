@@ -24,6 +24,20 @@
       height: 600px;
     }
   }
+  .boards {
+    &__statement-text {
+      max-width: 100%;
+      font-size: 40px;
+      line-height: 50px;
+    }
+    &__card {
+      max-width: 300px;
+    }
+    &__card-img {
+      height: 300px;
+      width: 300px;
+    }
+  }
 }
 @include media-breakpoint-down(md) {
   .header {
@@ -53,6 +67,32 @@
     &__button {
       width: 130px;
       padding: 13px 10px 15px;
+    }
+  }
+  .boards {
+    padding-top: 50px;
+    &__statement {
+      margin-bottom: 50px;
+    }
+    &__statement-text {
+      max-width: 95%;
+      font-size: 30px;
+      line-height: 40px;
+    }
+    &__goods {
+      padding: 40px 0;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+    &__card {
+      max-width: 250px;
+    }
+    &__card-img {
+      height: 250px;
+      width: 250px;
     }
   }
 }
@@ -134,6 +174,37 @@
       font-size: 30px;
       line-height: 40px;
       margin-bottom: 20px;
+    }
+  }
+  .boards {
+    padding-top: 30px;
+    &__statement {
+      margin-bottom: 30px;
+    }
+    &__statement-text {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    &__statement-link {
+      width: 50%;
+      margin: 0 auto;
+      &:first-child {
+        margin-right: auto;
+        margin-bottom: 20px;
+      }
+    }
+    &__goods {
+      padding: 30px 0;
+    }
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__card {
+      max-width: 200px;
+    }
+    &__card-img {
+      height: 200px;
+      width: 200px;
     }
   }
 }

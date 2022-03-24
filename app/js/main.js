@@ -38,4 +38,32 @@ $(function () {
       }
     }
   });
+
+  $(".boards__slider").slick({
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 993,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: true,
+        },
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          centerMode: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay: true,
+        },
+      },
+    ],
+  });
 });
