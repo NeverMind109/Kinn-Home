@@ -19,12 +19,40 @@
       margin-top: 25px;
     }
   }
+  .hero {
+    &__wrapper {
+      height: 600px;
+    }
+  }
 }
 @include media-breakpoint-down(md) {
   .header {
     padding: 0 0 20px;
     &__line {
       margin-bottom: 20px;
+    }
+  }
+  .hero {
+    &__background {
+      padding: 10px;
+    }
+    &__wrapper {
+      height: 450px;
+    }
+    &__information {
+      padding: 25px;
+    }
+    &__tag {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    &__button {
+      width: 130px;
+      padding: 13px 10px 15px;
     }
   }
 }
@@ -88,6 +116,24 @@
     &--active {
       transform: translateY(0);
       overflow-y: scroll;
+    }
+  }
+  .hero {
+    &__background {
+      padding: 7px;
+    }
+    &__wrapper {
+      height: 350px;
+    }
+    &__tag {
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom: 20px;
     }
   }
 }
