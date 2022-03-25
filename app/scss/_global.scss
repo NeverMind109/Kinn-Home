@@ -46,3 +46,27 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+.facebook {
+  content: "";
+  width: 16px;
+  height: 23px;
+  background: url("../images/facebook.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pinterest {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url("../images/pinterest.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.instagram {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url("../images/instagram.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}

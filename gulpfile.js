@@ -41,6 +41,7 @@ function libscss() {
     "node_modules/slick-carousel/slick/slick.css",
     "node_modules/slick-carousel/slick/slick-theme.css",
     "node_modules/animate.css/animate.css",
+    "node_modules/@fancyapps/ui/dist/fancybox.css",
   ])
     .pipe(concat("_libs.scss"))
     .pipe(
@@ -59,6 +60,7 @@ function scripts() {
     "node_modules/slick-carousel/slick/slick.js",
     "node_modules/wow.js/dist/wow.js",
     "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+    "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
     "app/js/main.js",
   ])
     .pipe(concat("main.min.js"))

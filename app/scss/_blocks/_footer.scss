@@ -1,0 +1,132 @@
+.footer {
+  background: #717353;
+  &__wrapper {
+    padding: 64px 0 96px;
+  }
+  &__division {
+  }
+  &__title {
+    font-size: 15px;
+    color: #ffffef;
+    margin-bottom: 17px;
+    &::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 1px;
+      background-color: #ffffef;
+      margin-top: 15px;
+    }
+  }
+  &__text {
+    max-width: 260px;
+    color: #ffffef;
+  }
+  &__link {
+    display: block;
+    color: #ffffef;
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  &__accordion {
+    max-width: 230px;
+  }
+  &__accordion-item {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+  }
+  &__accordion-header {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #ffffef;
+    margin-bottom: 9px;
+    &:hover {
+      color: #ffffef;
+    }
+  }
+  &__accordion-button {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #ffffef;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    transition: color 0;
+    padding: 0;
+    &::after {
+      content: "";
+      width: 10px;
+      height: 8px;
+      background-image: url("../images/carret-down.svg");
+      background-position: center;
+      background-size: cover;
+      margin-left: 11px;
+    }
+    &:not(.collapsed)::after {
+      background-image: url("../images/carret-down.svg");
+      transform: rotate(-180deg);
+    }
+    &:focus {
+      border-color: transparent;
+      box-shadow: none;
+    }
+  }
+  &__accordion-collapse {
+  }
+
+  &__accordion-body {
+    padding: 0;
+  }
+
+  &__accordion-element {
+  }
+
+  &__accordion-link {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1.575px;
+    color: #ffffef;
+    padding: 10px 0 15px 5px;
+    &:hover {
+      color: #ffffef;
+    }
+  }
+  &__social {
+  }
+  &__social-link {
+    &:not(:first-child) {
+      margin-left: 19px;
+    }
+  }
+}
+.footer-list {
+  &__item {
+    margin-bottom: 9px;
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #ffffef;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffef;
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

@@ -1,0 +1,21 @@
+.moments {
+  padding: 40px 0 128px;
+  &__wrapper {
+    background: #ffffef;
+    padding: 64px 0;
+  }
+  &__title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593d;
+    margin-bottom: 31px;
+  }
+  &__images {
+    padding: 0 27px;
+  }
+  &__image-small {
+    padding: 0 8px;
+    max-width: 100%;
+  }
+}
