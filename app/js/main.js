@@ -5,7 +5,6 @@ $(function () {
     let link = $(".menu-list__link");
     let logo = $(".logo");
     let profile = $(".profile");
-    let search = $(".search");
     let cart = $(".cart");
     function click(element) {
       element.on("click", function () {
@@ -16,7 +15,6 @@ $(function () {
     click(link);
     click(logo);
     click(profile);
-    click(search);
     click(cart);
   });
 
@@ -55,9 +53,8 @@ $(function () {
         },
       },
       {
-        breakpoint: 769,
+        breakpoint: 426,
         settings: {
-          centerMode: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,

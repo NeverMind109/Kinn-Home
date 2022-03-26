@@ -21,9 +21,12 @@
 }
 @include media-breakpoint-down(lg) {
   .header {
-    padding: 0 0 30px;
+    padding: 5px 0 50px;
     &__menu {
-      margin-top: 25px;
+      margin-top: 45px;
+    }
+    &__search-input {
+      left: -199px;
     }
   }
   .hero {
@@ -87,7 +90,6 @@
 }
 @include media-breakpoint-down(md) {
   .header {
-    padding: 0 0 20px;
     &__line {
       margin-bottom: 20px;
     }
@@ -195,7 +197,7 @@
     &__text {
       font-size: 16px;
       line-height: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
     &__input {
       width: 100%;
@@ -204,7 +206,7 @@
       width: 100%;
       padding: 10px 10px;
       margin-left: 0;
-      margin-top: 20px;
+      margin-top: 10px;
     }
   }
   .moments {
@@ -252,12 +254,15 @@
     &__button {
       margin-right: 25px;
     }
+    &__search-input {
+      left: -189px;
+    }
   }
   .menu {
     position: absolute;
     padding-top: 20px;
     height: 100vh;
-    top: 131px;
+    top: 161px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -344,6 +349,10 @@
       height: 200px;
       width: 200px;
     }
+    .slick-slide {
+      display: flex;
+      justify-content: center;
+    }
   }
   .essentials {
     padding-top: 10px;
@@ -381,6 +390,12 @@
     padding: 10px 0 20px;
     &__wrapper {
       padding: 15px 0;
+    }
+    &__title {
+      margin-bottom: 15px;
+    }
+    &__image-small {
+      width: 250px;
     }
   }
   .footer {
