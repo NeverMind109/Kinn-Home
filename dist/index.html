@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Kinn Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -105,13 +106,16 @@
             class="logo header__logo d-flex justify-content-lg-center justify-content-sm-start justify-content-center order-0 order-lg-1 col-lg-2 col-sm-6 col-12"
             href="index.html"
           >
-            <img
-              class="logo__img"
-              src="images/logo.png"
-              alt="Logo"
-              width="90"
-              height="26"
-            />
+            <picture>
+              <source srcset="images/logo.webp" type="image/webp" />
+              <img
+                class="logo__img"
+                src="images/logo.png"
+                width="90"
+                height="26"
+                alt="Kinn Home Logo"
+              />
+            </picture>
           </a>
           <div
             class="header__buttons d-flex justify-content-end order-2 order-sm-1 order-lg-2 col-xxl-5 col-lg-2 col-sm-6 col-7"
@@ -119,12 +123,22 @@
             <button
               class="header__button header__profile profile"
               type="button"
+              aria-label="Profile Page"
             ></button>
             <form class="header__button header__search-form" action="search">
-              <input class="header__search-input" type="search" id="search" />
+              <input
+                class="header__search-input"
+                type="search"
+                id="search"
+                aria-label="search field"
+              />
               <label class="header__search-label search" for="search"> </label>
             </form>
-            <a class="header__cart cart" href="#">
+            <a
+              class="header__cart cart"
+              href="#"
+              aria-label="Go to Shopping Cart"
+            >
               <img
                 class="header__button-img"
                 src="images/cart-icon.svg"
@@ -138,6 +152,7 @@
           <button
             class="menu-button d-flex d-sm-none flex-column justify-content-between order-1 col-2"
             type="button"
+            aria-label="Mobile Menu"
           >
             <span class="menu-button__line"></span>
             <span class="menu-button__line"></span>
@@ -181,13 +196,16 @@
             <h2 class="boards__title">Maple Board Collection</h2>
             <div class="card-group boards__slider">
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-1.jpg"
-                  alt="Maple Board - Short"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-1.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-1.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Short"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Short
@@ -198,13 +216,16 @@
                 </div>
               </a>
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-2.jpg"
-                  alt="Maple Board - Long"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-2.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-2.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Long"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Long
@@ -215,13 +236,16 @@
                 </div>
               </a>
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-3.jpg"
-                  alt="Maple Board - Wide"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-3.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-3.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Wide"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Wide
@@ -232,13 +256,16 @@
                 </div>
               </a>
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-1.jpg"
-                  alt="Maple Board - Short"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-1.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-1.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Short"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Short
@@ -249,13 +276,16 @@
                 </div>
               </a>
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-2.jpg"
-                  alt="Maple Board - Long"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-2.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-2.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Long"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Long
@@ -266,13 +296,16 @@
                 </div>
               </a>
               <a class="card boards__card" href="#">
-                <img
-                  class="boards__card-img"
-                  src="images/boards-img-3.jpg"
-                  alt="Maple Board - Wide"
-                  width="410"
-                  height="410"
-                />
+                <picture>
+                  <source srcset="images/boards-img-3.webp" type="image/webp" />
+                  <img
+                    class="boards__card-img"
+                    src="images/boards-img-3.jpg"
+                    width="410"
+                    height="410"
+                    alt="Maple Board - Wide"
+                  />
+                </picture>
                 <div class="card-body boards__card-body">
                   <h3 class="card-title boards__card-title">
                     Maple Board - Wide
@@ -302,13 +335,21 @@
         </section>
         <section class="description">
           <div class="row description__wrapper d-flex align-items-start">
-            <img
+            <picture
               class="description__img description__img--left order-lg-0 order-1 col-lg-7 col-12"
-              src="images/description-img-1.jpg"
-              alt=""
-              width="743"
-              height="618"
-            />
+            >
+              <source
+                srcset="images/description-img-1.webp"
+                type="image/webp"
+              />
+              <img
+                class="description__img"
+                src="images/description-img-1.jpg"
+                width="743"
+                height="618"
+                alt=""
+              />
+            </picture>
             <div
               class="description__information order-lg-1 order-0 col-lg-5 col-12"
             >
@@ -324,13 +365,21 @@
         </section>
         <section class="description">
           <div class="row description__wrapper d-flex align-items-start">
-            <img
+            <picture
               class="description__img description__img--right order-1 col-lg-7 col-12"
-              src="images/description-img-2.jpg"
-              alt=""
-              width="743"
-              height="885"
-            />
+            >
+              <source
+                srcset="images/description-img-2.webp"
+                type="image/webp"
+              />
+              <img
+                class="description__img"
+                src="images/description-img-2.jpg"
+                width="743"
+                height="885"
+                alt=""
+              />
+            </picture>
             <div class="description__information order-0 col-lg-5 col-12">
               <h2 class="description__title">Your Table Your Time</h2>
               <p class="description__text">
@@ -356,6 +405,7 @@
                 class="newsletter__input"
                 type="email"
                 placeholder=""
+                aria-label="Enter your email"
                 required
               />
               <button class="newsletter__btn" type="submit">Subscribe</button>
@@ -371,11 +421,12 @@
               <a
                 class="moments__image-big"
                 data-fancybox="gallery"
-                href="images/moments-img-1-big.jpg"
+                href="images/moments-img-1-big.webp"
+                aria-label="Open Image"
               >
                 <img
                   class="moments__image-small"
-                  src="images/moments-img-1-small.jpg"
+                  src="images/moments-img-1-small.webp"
                   alt=""
                   width="320"
                   height="320"
@@ -384,11 +435,12 @@
               <a
                 class="moments__image-big"
                 data-fancybox="gallery"
-                href="images/moments-img-2-big.jpg"
+                href="images/moments-img-2-big.webp"
+                aria-label="Open Image"
               >
                 <img
                   class="moments__image-small"
-                  src="images/moments-img-2-small.jpg"
+                  src="images/moments-img-2-small.webp"
                   alt=""
                   width="320"
                   height="320"
@@ -397,11 +449,12 @@
               <a
                 class="moments__image-big"
                 data-fancybox="gallery"
-                href="images/moments-img-3-big.jpg"
+                href="images/moments-img-3-big.webp"
+                aria-label="Open Image"
               >
                 <img
                   class="moments__image-small"
-                  src="images/moments-img-3-small.jpg"
+                  src="images/moments-img-3-small.webp"
                   alt=""
                   width="320"
                   height="320"
@@ -410,11 +463,12 @@
               <a
                 class="moments__image-big"
                 data-fancybox="gallery"
-                href="images/moments-img-4-big.jpg"
+                href="images/moments-img-4-big.webp"
+                aria-label="Open Image"
               >
                 <img
                   class="moments__image-small"
-                  src="images/moments-img-4-small.jpg"
+                  src="images/moments-img-4-small.webp"
                   alt=""
                   width="320"
                   height="320"
@@ -552,9 +606,21 @@
           <div
             class="footer__social d-flex justify-content-lg-end justify-content-start align-items-end order-3 col-lg-2 col-12"
           >
-            <a class="footer__social-link facebook" href="#"></a>
-            <a class="footer__social-link pinterest" href="#"></a>
-            <a class="footer__social-link instagram" href="#"></a>
+            <a
+              class="footer__social-link facebook"
+              href="#"
+              aria-label="Our Facebook Page"
+            ></a>
+            <a
+              class="footer__social-link pinterest"
+              href="#"
+              aria-label="Our Pinterest Page"
+            ></a>
+            <a
+              class="footer__social-link instagram"
+              href="#"
+              aria-label="Our Instagram Page"
+            ></a>
           </div>
         </div>
       </div>

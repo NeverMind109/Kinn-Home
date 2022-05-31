@@ -4,7 +4,12 @@
     padding: 16px;
   }
   &__wrapper {
-    background: url("../images/hero-img.jpg") no-repeat;
+    background-image: url("../images/hero-img.jpg");
+    background-image: image-set(
+      "../images/hero-img.webp" type("image/webp"),
+      "../images/hero-img.jpg" type("image/jpg")
+    );
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 700px;

@@ -66,6 +66,8 @@
   }
   &__card-img {
     max-width: 100%;
+    height: auto;
+    object-fit: cover;
     padding-bottom: 15px;
     margin: 0 auto;
   }

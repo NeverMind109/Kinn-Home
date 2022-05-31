@@ -5,7 +5,12 @@
     padding: 16px;
   }
   &__wrapper {
-    background: url("../images/essentials-img.jpg") no-repeat;
+    background-image: url("../images/essentials-img.jpg");
+    background-image: image-set(
+      "../images/essentials-img.webp" type("image/webp"),
+      "../images/essentials-img.jpg" type("image/jpg")
+    );
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 700px;
