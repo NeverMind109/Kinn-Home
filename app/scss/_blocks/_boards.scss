@@ -18,6 +18,7 @@
     letter-spacing: 1.6px;
     color: #56593d;
     padding-right: 25px;
+    transition: color 0.2s;
     &::before {
       position: absolute;
       content: "";

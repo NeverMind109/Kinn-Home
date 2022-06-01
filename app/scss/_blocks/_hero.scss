@@ -43,11 +43,12 @@
     color: #ffffef;
     padding: 15px 10px 16px;
     margin: 0 0 0 auto;
-    background: #56593d;
+    background-color: #56593d;
     border: 1px solid #56593d;
+    transition: color 0.2s, border 0.2s, background-color 0.2s;
     &:hover {
       color: #fff;
-      background: #000;
+      background-color: #000;
     }
     &:active {
       border: 1px solid #fff;

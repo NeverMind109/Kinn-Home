@@ -42,17 +42,18 @@
     text-align: center;
     letter-spacing: 1.6px;
     text-transform: uppercase;
-    background: #56593d;
+    background-color: #56593d;
     padding: 0 10px;
     color: #ffffef;
     margin-left: 17px;
+    transition: color 0.2s, background-color 0.2s;
     &:hover {
       color: #fff;
-      background: #000;
+      background-color: #000;
     }
     &:active {
       color: #ffffef;
-      background: #000;
+      background-color: #000;
     }
   }
 }
